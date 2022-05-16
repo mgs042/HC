@@ -97,6 +97,10 @@ body {
     border: none;
 }
 
+#explore-mob{
+    display:none;
+}
+
 #explore:hover{
     background-color: #FFCE00;
 }
