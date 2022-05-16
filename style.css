@@ -479,22 +479,14 @@ body {
     margin-top: -55px
 }
 
-@media(max-width:767px){
-    .footer-col{
-        width:50%;
-        margin-bottom: 30px;
+
+
+@media only screen and (max-width:640px) {
+
+    .html{
+        margin: 0;
+        padding: 0;
     }
-}
-
-@media(max-width:574px){
-    .footer-col{
-        width:100%;
-        margin-bottom: 30px;
-    }
-}
-
-@media only screen and (max-width:50px) {
-
     .head{
         width: 100%;
         height: 60px;
@@ -519,20 +511,20 @@ body {
     #profilepic{
         width: 20px;
         height: 20px;
-        margin-left: -50px;
-        margin-top: 10px;
+        margin-left: 30px;
+        margin-top: 20px;
     }
     #logo1{
         width:138px;
         height: 18.5px;
-        margin-left: -115px;
+        margin-left: -70px;
     }
 
     #bucketlist{
         width: 20px;
         height: 20px;
-        margin-left: -80px;
-        margin-top: 10px;
+        margin-top: 20px;
+
     }
 
     #tagline{
@@ -544,7 +536,7 @@ body {
         width: 160%;
         padding-bottom: 100%;
         margin-left: -20px;
-        padding-right: 20%;
+        padding-right: 0%;
     }
     .box{
         width: 80%;
@@ -574,7 +566,7 @@ body {
         font-family:"AvenirLTStd-Roman";
     }
     #bg{
-        width: 90%;
+        width: 110%;
         height: 705px;
         position: fixed;
         z-index: -1;
@@ -600,6 +592,7 @@ body {
     .slides{
         padding-left: 10%;
         margin-top: -120px;
+        margin-right: 20px;
     }
 
     .box{
@@ -624,7 +617,146 @@ body {
 
     .map{
         top: 1400px;
-        left:-19vw;
+        left:-35vw;
         position: absolute;
+        
+
+    }
+    .about_us_button{
+        margin-left: 35%;
+    }
+    .share{
+        line-height:0.9em;
+        text-align:center;
+        font-size:30px;
+        letter-spacing:normal;
+        padding-top: 700px;
+        padding-right: 10%;
+        width: 500px;
+        font-family: avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;;
+    }
+    .share_text{
+        line-height:normal;
+        text-align:center;
+        font-size:12px;
+        font-family: avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+        padding-right: 10%;
+        padding-top: 25px;
+        padding-left: 20%;
+    }
+    .container{
+        max-width: 300px;
+        margin:auto;
+    }
+    .row{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer{
+        background-color: #fffcf6;
+        padding: 50px 50px;
+        margin-top: 50px;
+    }
+    .footer-col{
+        width: 28%;
+        padding-left:90px;
+        margin-left: -5%
+    }
+    .footer-col h4{
+        font-size: 14px;
+        color:black;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+
+        
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        height: 2px;
+        box-sizing: border-box;
+        width: 10px;
+    
+    }
+    
+    #footer-list{
+        margin-top: -27px;
+        margin-bottom: 1rem;
+        margin-left: -30px;
+        list-style: none;
+        width: 10px;
+    }
+    
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 0px;
+    }
+    .footer-col ul li a{
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: black;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+        color:black;
+        padding-left: 8px;
+    }
+    
+    .footer-col .social-links a{
+        display:inline-block;
+        height: 40px;
+        width: 10px;
+        background-color: rgba(255,255,255,0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #f18228;
+        transition: all 0.5s ease;
+    }
+    
+    .social{
+        margin-left: 30%;
+        width:50%;
+        padding-left: 20px;
+        padding-top:10px;
+    }
+    
+    .footer-col .social-links a:hover{
+        color:#24232b;
+        background-color: #ffffff;
+    }
+    
+    #footer-line{
+        width: 80%;
+        height: 1px;
+        background-color: #f18228;
+        margin-left: 45px;
+        margin-top: -50px
+    }
+    
+    #logo-bottom{
+        height: 10px;
+        padding-left: 40px;
+    }
+    #tagline-bottom{
+        font-size: 8px;
+        padding-left: 50px;
+    }
+
+    .copyright{
+        width: auto;
+        padding-left: 71.5%;
+        margin-top: -55px;
+        font-size: 8px;
+        padding-top: 15px;
     }
 }
