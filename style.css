@@ -599,38 +599,52 @@ body {
 
     #carousel-mob{
         display: block;
-        z-index: 5;
-        margin-bottom: 50px;
+        z-index: 15;
+        margin-bottom: 150px;
+        width: 300px;
+        height: 350px;
+        margin-left:100px;
+
     }
 
     .card-img-top{
-        width: 236px;
-        height: 300px;
-        margin-left:130px;
-        margin-top: 100px;
-        
+        margin-top: 50px;
+    }
+    .carousel-control-prev{
+        margin-top: 150px;
+
+    }
+
+    .carousel-control-prev-icon{
+        background-color: #ff6f00;
+
+    }
+    .carousel-control-next{
+        margin-top: 150px;
     }
 
     #card-text{
-        font-size:14px;
+        font-size:16px;
         line-height:normal;
         font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
         letter-spacing:0em;
         color:#FFFFFF;
         margin-top: -19px;
         padding-top: -70px;
-        padding-left: 5px;
+        padding-left: 30px;
         z-index: 15;
+        margin-left: -70px;
+
     }
     
     #card-subtext{
         line-height:1.5em;
         letter-spacing:normal;
-        font-size:12px;
+        font-size:14px;
         font-family:helvetica-w01-light,helvetica-w02-light,sans-serif;
         color:#FFFFFF;
         margin-top: -10px;
-        margin-left: -105px;
+        margin-left: -170px;
         z-index: 15;
     }
     
@@ -638,6 +652,7 @@ body {
 
         margin-bottom: 0px;
         margin-right:15px;
+        margin-left: -1px;
         width: 180px;
         z-index: 15;
         border-radius: 15px;
@@ -651,18 +666,7 @@ body {
         color: #FFFFFF;
         border: none;
     }
-    
-    #mask{
-        padding-bottom: 45px;
-        z-index: 20;
-        padding-top:5px;
-        padding-left: 230px;
-        background-color: rgba(30, 29, 29, 0.427);
-    }
 
-    .carousel-caption {
-
-    }
     .box{
         width: 160%;
         height: 480px;
@@ -676,7 +680,7 @@ body {
         height:173px;
         font-family: avenir-lt-w05_85-heavy,sans-serif;
         margin-left: 20%;
-        padding-top: 140px;
+        padding-top: 60px;
     }
 
     #comp-l2lon5i6{
@@ -684,7 +688,7 @@ body {
     }
 
     .map{
-        top: 1400px;
+        top: 1500px;
         left:-35vw;
         position: absolute;
         
@@ -699,7 +703,6 @@ body {
         font-size:30px;
         letter-spacing:normal;
         padding-top: 700px;
-        padding-right: 10%;
         width: 500px;
         font-family: avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;;
     }
@@ -708,7 +711,7 @@ body {
         text-align:center;
         font-size:12px;
         font-family: avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
-        padding-right: 10%;
+        padding-right: 20%;
         padding-top: 25px;
         padding-left: 20%;
     }
