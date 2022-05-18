@@ -499,8 +499,9 @@ body {
         display:none;
     }
     #explore-mob{
+        display:inline-block;
         margin-top: 20px;
-        margin-left: 80px;
+        margin-left: 60px;
         border-radius: 15px;
         background-color: #fd7913;
         padding: 9px 25px;
@@ -536,7 +537,7 @@ body {
         background-color:#FFFFFF;
         margin-top: 185px;
         width: 160%;
-        padding-bottom: 100%;
+        padding-bottom: 30%;
         margin-left: -20px;
         padding-right: 20%;
     }
@@ -585,7 +586,7 @@ body {
         height: 40px;
         border-radius: 10px;
         padding: 10px;
-        margin-left: -5px;
+        margin-left: -25px;
         z-index: 0;
     }
 
@@ -615,10 +616,6 @@ body {
 
     }
 
-    .carousel-control-prev-icon{
-        background-color: #ff6f00;
-
-    }
     .carousel-control-next{
         margin-top: 150px;
     }
@@ -688,7 +685,7 @@ body {
     }
 
     .map{
-        top: 1500px;
+        top: 1600px;
         left:-35vw;
         position: absolute;
         
