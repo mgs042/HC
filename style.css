@@ -136,7 +136,7 @@ body {
     text-align:center;
     font-size:18px;
     color:#FFFFFF;
-    margin-left:150px;
+    margin-left:10px;
     margin-top: 30px;
 }
 
@@ -147,7 +147,9 @@ body {
     padding-right: 20px;
 }
 
-
+#carousel-mob{
+    display: none;
+}
 .cards{
     z-index: 5;
 }
@@ -188,7 +190,7 @@ body {
 }
 
 .fa-chevron-right{
-    margin-left: -185%;
+    margin-left: -275%;
 }
 
 
@@ -536,8 +538,10 @@ body {
         width: 160%;
         padding-bottom: 100%;
         margin-left: -20px;
-        padding-right: 0%;
+        padding-right: 20%;
     }
+
+
     .box{
         width: 80%;
         height: auto;
@@ -589,12 +593,76 @@ body {
         display: none;
     }
 
-    .slides{
-        padding-left: 10%;
-        margin-top: -120px;
-        margin-right: 20px;
+    .my-4{
+        display: none;
     }
 
+    #carousel-mob{
+        display: block;
+        z-index: 5;
+        margin-bottom: 50px;
+    }
+
+    .card-img-top{
+        width: 236px;
+        height: 300px;
+        margin-left:130px;
+        margin-top: 100px;
+        
+    }
+
+    #card-text{
+        font-size:14px;
+        line-height:normal;
+        font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+        letter-spacing:0em;
+        color:#FFFFFF;
+        margin-top: -19px;
+        padding-top: -70px;
+        padding-left: 5px;
+        z-index: 15;
+    }
+    
+    #card-subtext{
+        line-height:1.5em;
+        letter-spacing:normal;
+        font-size:12px;
+        font-family:helvetica-w01-light,helvetica-w02-light,sans-serif;
+        color:#FFFFFF;
+        margin-top: -10px;
+        margin-left: -105px;
+        z-index: 15;
+    }
+    
+    #card-button{
+
+        margin-bottom: 0px;
+        margin-right:15px;
+        width: 180px;
+        z-index: 15;
+        border-radius: 15px;
+        background-color: #fd7913;
+        padding: 5px 5px;
+        letter-spacing: 0.05em; font-family: avenir-lt-w01_85-heavy1475544,avenir-lt-w05_85-heavy,sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-weight: 400;
+        color: #FFFFFF;
+        border: none;
+    }
+    
+    #mask{
+        padding-bottom: 45px;
+        z-index: 20;
+        padding-top:5px;
+        padding-left: 230px;
+        background-color: rgba(30, 29, 29, 0.427);
+    }
+
+    .carousel-caption {
+
+    }
     .box{
         width: 160%;
         height: 480px;
